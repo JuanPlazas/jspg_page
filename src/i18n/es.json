@@ -90,8 +90,8 @@
 				"present": {
 					"time": "Actual",
 					"title": "AI Engineer",
-					"description": "Buscando oportunidades como AI Engineer, ML Engineer o roles híbridos Data + Backend.",
-					"projects": "Estoy abierto a oportunidades laborales como AI Engineer, ML Engineer, Backend Senior o roles híbridos que combinen Data y Backend. Mi perfil es ideal para empresas que buscan integrar Machine Learning y modelos de lenguaje en aplicaciones reales, con un enfoque en la producción robusta y escalable."
+					"description": "Buscando oportunidades como AI Engineer, ML Engineer o roles híbridos Data + Fullstack.",
+					"projects": "Estoy abierto a oportunidades laborales como AI Engineer, ML Engineer, Fullstack Senior o roles híbridos que combinen Data y Fullstack. Mi perfil es ideal para empresas que buscan integrar Machine Learning y modelos de lenguaje en aplicaciones reales, con un enfoque en la producción robusta y escalable."
 				}
 			}
 		}
@@ -99,7 +99,7 @@
 	"contact": {
 		"title": "Contacto",
 		"subtitle": "Hablemos",
-		"description": "Abierto a oportunidades como AI Engineer, ML Engineer, Backend Senior o roles híbridos Data + Backend.",
+		"description": "Abierto a oportunidades como AI Engineer, ML Engineer, Fullstack Senior o roles híbridos Data + Fullstack.",
 		"email": "juan-2151@hotmail.com",
 		"linkedin": "linkedin.com/in/juan-sebastian-plazas-gallo",
 		"github": "github.com/JuanPlazas",
