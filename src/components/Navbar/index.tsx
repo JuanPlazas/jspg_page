@@ -3,13 +3,12 @@
 import { useState } from 'react';
 import { useThemeContext, useI18nContext } from '@/app/providers';
 
-const NAV_ITEMS = ['hero', 'projects', 'about', 'contact'] as const;
-
 export default function Navbar() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const { theme, toggleTheme } = useThemeContext();
 	const { phrases, lang, toggleLanguage } = useI18nContext();
 
+	const NAV_ITEMS = Object.keys(phrases.nav) as Array<keyof typeof phrases.nav>;
 	const scrollTo = (id: string) => {
 		setMenuOpen(false);
 		document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
