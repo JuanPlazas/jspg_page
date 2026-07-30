@@ -1,0 +1,112 @@
+{
+	"nav": {
+		"hero": "Inicio",
+		"about": "Sobre Mí",
+		"projects": "Proyectos",
+		"contact": "Contacto"
+	},
+	"hero": {
+		"description": "Soy un AI Engineer con experiencia sólida en backend y cloud computing. Tengo más de 8 años construyendo sistemas escalables y actualmente me enfoco en integrar Machine Learning, Computer Vision y LLMs en aplicaciones reales listas para producción.",
+		"profile_ai": "Machine Learning, Visión Computacional, LLM, Power BI, Pipelines de datos",
+		"profile_more": "Ver más . . .",
+		"cta_cv": "Descargar CV",
+		"cta_contact": "Contáctame",
+		"vision": {
+			"title": "Visión Computacional",
+			"subtitle": "Reconocimiento de Lengua de Señas",
+			"description": "Sistema de visión computacional en tiempo real para reconocer letras en lenguaje de señas. El modelo detecta e interpreta los gestos manuales y los traduce a texto.",
+			"video_placeholder": "Video próximamente — Grabación diciendo 'Bienvenidos' en lenguaje de señas",
+			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
+			"repo_link": "Ver repositorio",
+			"status": "En desarrollo"
+		}
+	},
+	"projects": {
+		"vision": {
+			"title": "Visión Computacional",
+			"subtitle": "Reconocimiento de Lengua de Señas",
+			"description": "Sistema de visión computacional en tiempo real para reconocer letras en lenguaje de señas. El modelo detecta e interpreta los gestos manuales y los traduce a texto.",
+			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
+			"repo_link": "Ver repositorio",
+			"status": "En desarrollo"
+		},
+		"masters": {
+			"title": "Maestría en IA y Ciencia de Datos",
+			"subtitle": "Arquitecturas de Deep Learning",
+			"description": "Taller académico donde diseñé arquitecturas de LLMs desde cero: RNN, LSTM y Transformers, incluyendo el cálculo manual de parámetros para cada una.",
+			"repo_link": "Ver taller completo"
+		},
+		"fullstack": {
+			"title": "Proyecto Full-Stack",
+			"subtitle": "Arquitectura para Sistema de Monitoreo Vehicular",
+			"description": "Diseño de una arquitectura para una central de monitoreo vehicular capaz de procesar 500 señales/segundo con respuesta a emergencias en menos de 2 segundos.",
+			"repo_link": "Ver solución completa"
+		}
+	},
+	"about": {
+		"title": "Sobre Mí",
+		"paragraph1": "Ingeniero de Sistemas y actual maestrando en Inteligencia Artificial y Ciencia de Datos. Combino amplia experiencia en el diseño, desarrollo,  despliegue y mantenimiento de software escalable, con conocimientos avanzados en Machine Learning, Visión Computacional, Arquitecturas Analíticas y Modelos de Lenguaje. Especializado en el ciclo de vida completo del dato, desde el pipeline de ingeniería (ETL/Big Data) hasta la integración de modelos predictivos en microservicios productivos.",
+		"paragraph2": "Soy una persona honesta, comprometida, responsable, con deseos de superación y cumplidora en mis deberes. Capaz de enfrentar nuevos retos en la vida tanto laborales como personales. Dispuesto a crecer en conocimientos y adquirir nuevas habilidades para escalar en mi profesión y como persona. Soy emprendedor, capaz y dispuesto a afrontar nuevos retos, cumplir metas y asumir compromisos aun cuando esto signifique utilizar nuevas herramientas para lograr el objetivo.",
+		"paragraph3": "Mi mayor diferenciador es ser un perfil híbrido: combino experiencia sólida en producción (cloud, DevOps, backend) con conocimientos avanzados en Machine Learning, Deep Learning y Visión Computacional. Puedo entrenar modelos y llevarlos a producción de forma robusta.",
+		"journey": {
+			"title": "Mi Trayectoria",
+			"steps": {
+				"2018": {
+					"time": "Enero 2018 - Julio 2019",
+					"title": "BSDC",
+					"description": "Software para corredores de bolsa. Se dio soporte a este software y se trabajó en abrir el área de mercado del norte de Europa. Las principales herramientas fueron C++, Qt, base de datos MySQL, PostgreSQL y SQLite.",
+					"projects": "El jefe nos enseñó los principios del desarrollo de software y el lenguaje C ++. ORA Traders tiene un software para corredores de bolsa. Se dio soporte a este software y se empezó a abrir el área de mercado del norte de Europa, aquí yo era responsable de las bases de datos, mediante una interfaz que combinaba los motores de SQLite, MySQL y PostgreSQL."
+				},
+				"2019": {
+					"time": "Agosto 2019 - Julio 2021",
+					"title": "VOV Solutions",
+					"description": "Estuve trabajando como full stack mediante tres proyectos, en los cuales use herramientas como MySQL, Shopify, Magento, Channeladvisor. Las principales herramientas fueron NodeJS, TypeScript, React, AWS, MongoDB.",
+					"projects": "estuve en tres proyectos: <br/>el primer proyecto fue la plataforma de pruebas para los aspirantes a trabajar en la empresa. En este proyecto trabajé como frontend, las principales herramientas utilizadas fueron React, Material UI, graphQL, MySQL. <br/>El segundo proyecto se enfocó en Shopify; en este proyecto gestionamos la plantilla para Shopify (archivos .liquid), aplicaciones en Shopify, metadatos, ordenes, productos. El blog de esta empresa está en WordPress, para lo cual trabajamos en su desarrollo y soporte. <br/>El último proyecto fue un proyecto escalable; fue un proyecto integrado con otras plataformas o e-commerce como Magento, Channel Advisor, Shopify. Las principales herramientas para este proyecto fueron NodeJS, React, AWS, graphQL. <br/>Los tres proyectos se les desarrollaron tests, se utilizaron librerías como Jest o Mocha con nock, mock o Sinon. Las principales pruebas fueron unit test. Se manejaba la metodología ágil scrum."
+				},
+				"2021": {
+					"time": "Agosto 2021 - Julio 2022",
+					"title": "TCS",
+					"description": "Software Developer. Microservicios con Java Spring Boot y Node.js/TypeScript para telecomunicaciones y fintech.",
+					"projects": "Se presto servicio como desarrollador de microservicios para el proyectos de Claro. Se inició en el proyecto de microservicios de órdenes, se trabajó en typeScript, trasladando el aplicativo que estaba en java hacia typescript. Después se pasa a microservicios para el proyecto de portabilidad, se trabajo en java con las herramientas spring boot, maven, base de datos oracle y herramientas para simular envío de datos como soap o postman. Para control de versiones se utiliza Azure, y el control de seguridad una VPN propia de la empresa cliente."
+				},
+				"2022": {
+					"time": "Julio 2022 - Junio 2023",
+					"title": "Cuponatic",
+					"description": "Software Developer. Desarrollo de capacidades e-commerce con NestJS y Next.js.",
+					"projects": "La empresa es una tienda virtual, todo el desarrollo que se hizo fue propio para los aplicativos y administradores de la empresa, se prestó el servicio como desarrollador Full Stack usando principalmente Node y React con los frameworks NestJS y NextJS respectivamente, otras herramientas que se usaron fueron JavaScript, TypeScript, Material UI, apis rest, MySQL, postman, visual studio code, GIT, RDS."
+				},
+				"2023": {
+					"time": "Julio 2023 - Junio 2024",
+					"title": "Buscalibre",
+					"description": "Backend Developer. Plataformas e-commerce con PHP, Angular y Docker.",
+					"projects": "desarrollador Full Stack usando principalmente Angular y PHP, Buscalibre es un e-commerce por lo que todo el desarrollo que se hizo era para los aplicativos y administradores propios de la empresa, otras herramientas que se usaron fueron symfony, Material UI, apis rest, MySQL, postman, visual studio code, GIT, AWS, Docker, metodologías ágiles."
+				},
+				"2024": {
+					"time": "Julio 2024 - Actual",
+					"title": "Periferia",
+					"description": "Software Developer. Microservicios escalables (Node.js/Go/Java) en Azure/GCP para clientes corporativos.",
+					"projects": "Actualmente me encuentro trabajando en Periferia, una empresa de desarrollo de software a la medida, en la cual se desarrollan microservicios escalables con Node.js, Go y Java para clientes corporativos como Terpel. Se trabaja con metodologías ágiles, principalmente scrum, y se utilizan herramientas como Azure y GCP para el despliegue y mantenimiento de los servicios."
+				},
+				"present": {
+					"time": "Actual",
+					"title": "AI Engineer",
+					"description": "Buscando oportunidades como AI Engineer, ML Engineer o roles híbridos Data + Backend.",
+					"projects": "Estoy abierto a oportunidades laborales como AI Engineer, ML Engineer, Backend Senior o roles híbridos que combinen Data y Backend. Mi perfil es ideal para empresas que buscan integrar Machine Learning y modelos de lenguaje en aplicaciones reales, con un enfoque en la producción robusta y escalable."
+				}
+			}
+		}
+	},
+	"contact": {
+		"title": "Contacto",
+		"subtitle": "Hablemos",
+		"description": "Abierto a oportunidades como AI Engineer, ML Engineer, Backend Senior o roles híbridos Data + Backend.",
+		"email": "juan-2151@hotmail.com",
+		"linkedin": "linkedin.com/in/juan-sebastian-plazas-gallo",
+		"github": "github.com/JuanPlazas",
+		"download_cv": "Descargar CV"
+	},
+	"footer": {
+		"copyright": "Juan Sebastian Plazas Gallo",
+		"built_with": "Construido con Next.js · Tailwind · Vercel"
+	}
+}
