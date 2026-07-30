@@ -1,0 +1,112 @@
+{
+	"nav": {
+		"hero": "Home",
+		"about": "About Me",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
+	"hero": {
+		"description": "I'm an AI Engineer with solid backend and cloud computing experience. I have over 8 years building scalable systems and currently focus on integrating Machine Learning, Computer Vision, and LLMs into real production-ready applications.",
+		"profile_ai": "Machine Learning, Computer Vision, LLM, Power BI, Data Pipelines",
+		"profile_more": "See more . . .",
+		"cta_cv": "Download CV",
+		"cta_contact": "Contact Me",
+		"vision": {
+			"title": "Computer Vision",
+			"subtitle": "Sign Language Recognition",
+			"description": "Real-time computer vision system to recognize sign language letters. The model detects hand gestures and translates them into text.",
+			"video_placeholder": "Video coming soon — Recording saying 'Welcome' in sign language",
+			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
+			"repo_link": "View repository",
+			"status": "In development"
+		}
+	},
+	"projects": {
+		"vision": {
+			"title": "Computer Vision",
+			"subtitle": "Sign Language Recognition",
+			"description": "Real-time computer vision system to recognize sign language letters. The model detects hand gestures and translates them into text.",
+			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
+			"repo_link": "View repository",
+			"status": "In development"
+		},
+		"masters": {
+			"title": "AI & Data Science Master's",
+			"subtitle": "Deep Learning Architectures",
+			"description": "Academic workshop where I designed LLM architectures from scratch: RNN, LSTM, and Transformers, including manual parameter calculation for each one.",
+			"repo_link": "View full workshop"
+		},
+		"fullstack": {
+			"title": "Full-Stack Project",
+			"subtitle": "Vehicle Monitoring System Architecture",
+			"description": "Design of a scalable software architecture for a vehicle monitoring center (CCS) capable of processing 500 signals/second with emergency response under 2 seconds.",
+			"repo_link": "View full solution"
+		}
+	},
+	"about": {
+		"title": "About Me",
+		"paragraph1": "Systems Engineer and current Master's candidate in Artificial Intelligence and Data Science. I combine extensive experience in the design, development, deployment, and maintenance of scalable software with advanced knowledge in Machine Learning, Computer Vision, Analytical Architectures, and Language Models. Specialized in the complete data lifecycle, from the engineering pipeline (ETL/Big Data) to the integration of predictive models into production microservices.",
+		"paragraph2": "I am an honest, committed, responsible person with a drive for self-improvement who fulfills my duties. Capable of facing new challenges in both professional and personal life. Willing to grow in knowledge and acquire new skills to advance in my career and as a person. I am entrepreneurial, capable, and willing to take on new challenges, meet goals, and assume commitments even when it means using new tools to achieve the objective.",
+		"paragraph3": "My key differentiator is my hybrid profile: I combine solid production experience (cloud, DevOps, backend) with advanced knowledge in Machine Learning, Deep Learning, and Computer Vision. I can train models and deploy them robustly.",
+		"journey": {
+			"title": "My Journey",
+			"steps": {
+				"2018": {
+					"time": "January 2018 - July 2019",
+					"title": "BSDC",
+					"description": "Software for stockbrokers. I provided support for this software and worked on opening the Northern European market area. The main tools were C++, Qt, MySQL, PostgreSQL, and SQLite databases.",
+					"projects": "My boss taught me the principles of software development and the C++ language. ORA Traders has software for stockbrokers. I supported this software and began opening the Northern European market area. I was responsible for databases through an interface that combined SQLite, MySQL, and PostgreSQL engines."
+				},
+				"2019": {
+					"time": "August 2019 - July 2021",
+					"title": "VOV Solutions",
+					"description": "I worked as a full stack developer across three projects, using tools like MySQL, Shopify, Magento, and Channeladvisor. The main tools were NodeJS, TypeScript, React, AWS, MongoDB.",
+					"projects": "I worked on three projects: <br/>the first was a testing platform for job applicants, working as frontend with React, Material UI, GraphQL, MySQL. <br/>The second focused on Shopify, managing the template (.liquid files), Shopify apps, metadata, orders, products, and the WordPress blog. <br/>The last was a scalable project integrated with Magento, Channel Advisor, and Shopify, using NodeJS, React, AWS, GraphQL. <br/>Tests were developed for all three projects using Jest or Mocha with nock, mock, or Sinon. Agile scrum methodology was used."
+				},
+				"2021": {
+					"time": "August 2021 - July 2022",
+					"title": "TCS",
+					"description": "Software Developer. Microservices with Java Spring Boot and Node.js/TypeScript for telecom and fintech.",
+					"projects": "I worked as a microservices developer for the Claro project. I started on the orders microservices project in TypeScript, migrating the application from Java to TypeScript. Later I moved to the portability project, working in Java with Spring Boot, Maven, Oracle database, and tools like SOAP and Postman for data simulation. Azure was used for version control, with the client's VPN for security."
+				},
+				"2022": {
+					"time": "July 2022 - June 2023",
+					"title": "Cuponatic",
+					"description": "Software Developer. E-commerce capabilities with NestJS and Next.js.",
+					"projects": "I worked as a Full Stack Developer at a virtual store, building proprietary applications and admin panels. Mainly used Node and React with NestJS and NextJS frameworks respectively. Other tools: JavaScript, TypeScript, Material UI, REST APIs, MySQL, Postman, Visual Studio Code, GIT, RDS."
+				},
+				"2023": {
+					"time": "July 2023 - June 2024",
+					"title": "Buscalibre",
+					"description": "Backend Developer. E-commerce platforms with PHP, Angular and Docker.",
+					"projects": "Full Stack developer using Angular and PHP for an e-commerce platform. All development was for the company's own applications and admin panels. Other tools: Symfony, Material UI, REST APIs, MySQL, Postman, Visual Studio Code, GIT, AWS, Docker, agile methodologies."
+				},
+				"2024": {
+					"time": "July 2024 - Present",
+					"title": "Periferia",
+					"description": "Software Developer. Scalable microservices (Node.js/Go/Java) on Azure/GCP for enterprise clients.",
+					"projects": "Currently working at Periferia, a custom software development company, building scalable microservices with Node.js, Go, and Java for enterprise clients like Terpel. We use agile methodologies, mainly Scrum, with Azure and GCP for deployment and maintenance."
+				},
+				"present": {
+					"time": "Present",
+					"title": "AI Engineer",
+					"description": "Seeking opportunities as AI Engineer, ML Engineer, or hybrid Data + Backend roles.",
+					"projects": "Open to professional opportunities as AI Engineer, ML Engineer, Senior Backend, or hybrid Data + Backend roles. My profile is ideal for companies looking to integrate Machine Learning and language models into real applications with a focus on robust and scalable production."
+				}
+			}
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"subtitle": "Let's Talk",
+		"description": "Open to opportunities as AI Engineer, ML Engineer, Senior Backend, or hybrid Data + Backend roles.",
+		"email": "juan-2151@hotmail.com",
+		"linkedin": "linkedin.com/in/juan-sebastian-plazas-gallo",
+		"github": "github.com/JuanPlazas",
+		"download_cv": "Download CV"
+	},
+	"footer": {
+		"copyright": "Juan Sebastian Plazas Gallo",
+		"built_with": "Built with Next.js · Tailwind · Vercel"
+	}
+}
