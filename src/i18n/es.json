@@ -81,7 +81,7 @@
 					"description": "Backend Developer. Plataformas e-commerce con PHP, Angular y Docker.",
 					"projects": "desarrollador Full Stack usando principalmente Angular y PHP, Buscalibre es un e-commerce por lo que todo el desarrollo que se hizo era para los aplicativos y administradores propios de la empresa, otras herramientas que se usaron fueron symfony, Material UI, apis rest, MySQL, postman, visual studio code, GIT, AWS, Docker, metodologías ágiles."
 				},
-				"2024": {
+				"current": {
 					"time": "Julio 2024 - Actual",
 					"title": "Periferia",
 					"description": "Software Developer. Microservicios escalables (Node.js/Go/Java) en Azure/GCP para clientes corporativos.",
@@ -90,7 +90,7 @@
 				"present": {
 					"time": "Actual",
 					"title": "AI Engineer",
-					"description": "Buscando oportunidades como AI Engineer, ML Engineer o roles híbridos Data + Fullstack.",
+					"description": "Buscando oportunidades como AI Engineer, Fullstack Developer, ML Engineer o roles híbridos Data + Fullstack.",
 					"projects": "Estoy abierto a oportunidades laborales como AI Engineer, ML Engineer, Fullstack Senior o roles híbridos que combinen Data y Fullstack. Mi perfil es ideal para empresas que buscan integrar Machine Learning y modelos de lenguaje en aplicaciones reales, con un enfoque en la producción robusta y escalable."
 				}
 			}

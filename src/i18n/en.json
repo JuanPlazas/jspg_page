@@ -81,7 +81,7 @@
 					"description": "Backend Developer. E-commerce platforms with PHP, Angular and Docker.",
 					"projects": "Full Stack developer using Angular and PHP for an e-commerce platform. All development was for the company's own applications and admin panels. Other tools: Symfony, Material UI, REST APIs, MySQL, Postman, Visual Studio Code, GIT, AWS, Docker, agile methodologies."
 				},
-				"2024": {
+				"current": {
 					"time": "July 2024 - Present",
 					"title": "Periferia",
 					"description": "Software Developer. Scalable microservices (Node.js/Go/Java) on Azure/GCP for enterprise clients.",
@@ -90,7 +90,7 @@
 				"present": {
 					"time": "Present",
 					"title": "AI Engineer",
-					"description": "Seeking opportunities as AI Engineer, ML Engineer, or hybrid Data + Fullstack roles.",
+					"description": "Seeking opportunities as AI Engineer, Fullstack Developer, ML Engineer or hybrid Data + Fullstack roles.",
 					"projects": "Open to professional opportunities as AI Engineer, ML Engineer, Senior Fullstack, or hybrid Data + Fullstack roles. My profile is ideal for companies looking to integrate Machine Learning and language models into real applications with a focus on robust and scalable production."
 				}
 			}
