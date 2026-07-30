@@ -22,25 +22,11 @@
 		}
 	},
 	"projects": {
-		"vision": {
-			"title": "Visión Computacional",
-			"subtitle": "Reconocimiento de Lengua de Señas",
-			"description": "Sistema de visión computacional en tiempo real para reconocer letras en lenguaje de señas. El modelo detecta e interpreta los gestos manuales y los traduce a texto.",
-			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
-			"repo_link": "Ver repositorio",
-			"status": "En desarrollo"
-		},
-		"masters": {
-			"title": "Maestría en IA y Ciencia de Datos",
-			"subtitle": "Arquitecturas de Deep Learning",
-			"description": "Taller académico donde diseñé arquitecturas de LLMs desde cero: RNN, LSTM y Transformers, incluyendo el cálculo manual de parámetros para cada una.",
-			"repo_link": "Ver taller completo"
-		},
 		"fullstack": {
-			"title": "Proyecto Full-Stack",
+			"title": "CCS Central - Sistema de Seguimiento Vehicular",
 			"subtitle": "Arquitectura para Sistema de Monitoreo Vehicular",
 			"description": "Diseño de una arquitectura para una central de monitoreo vehicular capaz de procesar 500 señales/segundo con respuesta a emergencias en menos de 2 segundos.",
-			"repo_link": "Ver solución completa"
+			"repo_link": "https://github.com/JuanPlazas/reto-arquitectura-backend"
 		}
 	},
 	"about": {

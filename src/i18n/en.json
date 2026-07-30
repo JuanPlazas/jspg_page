@@ -22,25 +22,11 @@
 		}
 	},
 	"projects": {
-		"vision": {
-			"title": "Computer Vision",
-			"subtitle": "Sign Language Recognition",
-			"description": "Real-time computer vision system to recognize sign language letters. The model detects hand gestures and translates them into text.",
-			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
-			"repo_link": "View repository",
-			"status": "In development"
-		},
-		"masters": {
-			"title": "AI & Data Science Master's",
-			"subtitle": "Deep Learning Architectures",
-			"description": "Academic workshop where I designed LLM architectures from scratch: RNN, LSTM, and Transformers, including manual parameter calculation for each one.",
-			"repo_link": "View full workshop"
-		},
 		"fullstack": {
-			"title": "Full-Stack Project",
+			"title": "CCS Central - Sistema de Seguimiento Vehicular",
 			"subtitle": "Vehicle Monitoring System Architecture",
 			"description": "Design of a scalable software architecture for a vehicle monitoring center (CCS) capable of processing 500 signals/second with emergency response under 2 seconds.",
-			"repo_link": "View full solution"
+			"repo_link": "https://github.com/JuanPlazas/reto-arquitectura-backend"
 		}
 	},
 	"about": {
