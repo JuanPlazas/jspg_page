@@ -15,7 +15,7 @@
 			"title": "Visión Computacional",
 			"subtitle": "Reconocimiento de Lengua de Señas",
 			"description": "Sistema de visión computacional en tiempo real para reconocer letras en lenguaje de señas. El modelo detecta e interpreta los gestos manuales y los traduce a texto.",
-			"video_placeholder": "Video próximamente — Grabación diciendo 'Bienvenidos' en lenguaje de señas",
+			"video_placeholder": "Video próximamente — Grabación diciendo 'Hola' en lenguaje de señas",
 			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
 			"repo_link": "Ver repositorio",
 			"status": "En desarrollo"

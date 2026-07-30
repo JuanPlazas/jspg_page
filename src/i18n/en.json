@@ -15,7 +15,7 @@
 			"title": "Computer Vision",
 			"subtitle": "Sign Language Recognition",
 			"description": "Real-time computer vision system to recognize sign language letters. The model detects hand gestures and translates them into text.",
-			"video_placeholder": "Video coming soon — Recording saying 'Welcome' in sign language",
+			"video_placeholder": "Video coming soon — Recording saying 'Hola' in sign language",
 			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
 			"repo_link": "View repository",
 			"status": "In development"
