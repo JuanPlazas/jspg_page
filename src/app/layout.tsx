@@ -28,9 +28,28 @@ export const metadata: Metadata = {
 			'Ingeniero de Sistemas y Maestrando en Inteligencia Artificial y Ciencia de Datos, experiencia sólida en producción (cloud, DevOps, backend) con conocimientos avanzados en Machine Learning, Deep Learning y Visión Computacional.',
 		url: SITE_URL,
 		siteName: 'Juan Sebastian Plazas Gallo',
+		images: [
+			{
+				url: '/web-app-manifest-512x512.png',
+				width: 1200,
+				height: 630,
+				alt: 'Juan Sebastian Plazas Gallo - AI Engineer & Fullstack Developer',
+			},
+		],
 		locale: 'es_CO',
 		type: 'website',
 	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Juan Sebastian Plazas Gallo | AI Engineer | Fullstack Developer',
+		description: 'Portafolio profesional de Juan Plazas. Ingeniero de Sistemas y Maestrando en IA.',
+		images: ['/og.png'],
+	},
+	icons: {
+		icon: [{ url: '/favicon.ico' }, { url: '/icon1.png', type: 'image/png' }],
+		apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+	},
+	manifest: '/manifest.json',
 };
 
 export default async function RootLayout({
