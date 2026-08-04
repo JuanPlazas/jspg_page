@@ -33,8 +33,11 @@ export default function Timeline({ steps }: { steps: Steps }) {
 				{keys.map((key) => (
 					<div key={key} className="space-y-2 flex flex-col items-center">
 						<p className="text-md font-bold text-secondary">{key}</p>
-						<div
+						<button
+							type="button"
 							onClick={() => setExperienceYear(key)}
+							aria-label={`${key} — ${steps[key]?.title}`}
+							aria-pressed={experienceYear === key}
 							className={`w-8 
 								z-10
 								h-8 
@@ -55,7 +58,10 @@ export default function Timeline({ steps }: { steps: Steps }) {
 			{/* Mobile: dropdown selector */}
 			<div className="lg:hidden mb-6 relative">
 				<button
+					type="button"
 					onClick={() => setSelectOpen(!selectOpen)}
+					aria-expanded={selectOpen}
+					aria-haspopup="listbox"
 					className="w-full 
 						glass 
 						rounded-full 
@@ -81,6 +87,8 @@ export default function Timeline({ steps }: { steps: Steps }) {
 				</button>
 
 				<div
+					inert={!selectOpen}
+					aria-hidden={!selectOpen}
 					className={`absolute 
 						z-20 
 						top-full 
@@ -100,6 +108,7 @@ export default function Timeline({ steps }: { steps: Steps }) {
 					{/* flex-col-reverse muestra el año más reciente primero (invierte el orden del map) */}
 					{keys.map((key) => (
 						<button
+							type="button"
 							key={key}
 							onClick={() => {
 								setExperienceYear(key);

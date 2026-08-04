@@ -9,24 +9,20 @@ export default function Navbar() {
 	const { phrases, lang, toggleLanguage } = useI18nContext();
 
 	const NAV_ITEMS = Object.keys(phrases.nav) as Array<keyof typeof phrases.nav>;
-	const scrollTo = (id: string) => {
-		setMenuOpen(false);
-		document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-	};
 
 	return (
 		<header className="fixed top-0 left-0 right-0 z-50 glass w-full">
 			<div className="lg:mx-auto flex h-16 lg:max-w-6xl items-center justify-between px-4 relative z-50">
-				<button onClick={() => scrollTo('hero')} className="font-bold text-primary text-lg tracking-tight cursor-pointer">
+				<a href="#hero" className="font-bold text-primary text-lg tracking-tight cursor-pointer">
 					{'<JP/>'}
-				</button>
+				</a>
 
 				{/* Desktop nav */}
-				<nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-text-muted">
+				<nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-text-muted" aria-label="Main">
 					{NAV_ITEMS.map((id) => (
-						<button
+						<a
 							key={id}
-							onClick={() => scrollTo(id)}
+							href={`#${id}`}
 							className="px-2 
                 py-1 
                 transition-all 
@@ -37,21 +33,30 @@ export default function Navbar() {
                 hover:rounded-[10px]"
 						>
 							{phrases.nav[id]}
-						</button>
+						</a>
 					))}
 				</nav>
 
 				<div className="flex items-center gap-2">
-					<button onClick={toggleLanguage} className="w-9 h-9 text-xs transition-all duration-200 rounded-full glass cursor-pointer hover:[box-shadow:var(--glow-primary-color)]">
+					<button
+						onClick={toggleLanguage}
+						aria-label={lang === 'es' ? 'Switch to English' : 'Cambiar a español'}
+						className="w-9 h-9 text-xs transition-all duration-200 rounded-full glass cursor-pointer hover:[box-shadow:var(--glow-primary-color)]"
+					>
 						{lang === 'es' ? 'EN' : 'ES'}
 					</button>
-					<button onClick={toggleTheme} className="w-9 h-9 rounded-full glass transition-all duration-200 cursor-pointer hover:[box-shadow:var(--glow-primary-color)]">
+					<button
+						onClick={toggleTheme}
+						aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+						className="w-9 h-9 rounded-full glass transition-all duration-200 cursor-pointer hover:[box-shadow:var(--glow-primary-color)]"
+					>
 						{theme === 'dark' ? '☀️' : '🌙'}
 					</button>
 
 					{/* Hamburger */}
 					<button
 						onClick={() => setMenuOpen(!menuOpen)}
+						aria-label={menuOpen ? 'Close menu' : 'Open menu'}
 						className="
               lg:hidden 
               w-9 
@@ -75,6 +80,8 @@ export default function Navbar() {
 
 			{/* Mobile menu overlay */}
 			<div
+				inert={!menuOpen}
+				aria-hidden={!menuOpen}
 				className={`fixed 
         z-40 
         w-full
@@ -97,11 +104,12 @@ export default function Navbar() {
             w-full 
             transition-all 
             duration-300`}
+					aria-label="Mobile"
 				>
 					{NAV_ITEMS.map((id) => (
-						<button key={id} onClick={() => scrollTo(id)} className="text-xl font-medium text-text-muted hover:text-primary transition-colors duration-200 cursor-pointer">
+						<a key={id} href={`#${id}`} onClick={() => setMenuOpen(false)} className="text-xl font-medium text-text-muted hover:text-primary transition-colors duration-200 cursor-pointer">
 							{phrases.nav[id]}
-						</button>
+						</a>
 					))}
 				</nav>
 			</div>

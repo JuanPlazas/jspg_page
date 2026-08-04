@@ -1,11 +1,8 @@
-'use client';
-
-import { useI18nContext } from '@/app/providers';
 import Timeline from './Timeline';
 import AboutBio from './AboutBio';
+import type { Phrases } from '@/i18n/types';
 
-export default function About() {
-	const { phrases } = useI18nContext();
+export default function About({ phrases }: { phrases: Phrases }) {
 	const journey = phrases.about.journey;
 	const paragraphs = [phrases.about.paragraph1, phrases.about.paragraph2, phrases.about.paragraph3];
 

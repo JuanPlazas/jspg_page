@@ -1,9 +1,4 @@
-'use client';
-
-import { useI18nContext } from '@/app/providers';
-
-export default function Contact() {
-	const { phrases } = useI18nContext();
+export default function Contact({ phrases }: { phrases: { contact: { title: string; subtitle: string; description: string; email: string } } }) {
 
 	return (
 		<section id="contact" className="border-t border-border py-24 px-4">
@@ -29,6 +24,7 @@ export default function Contact() {
 						href="https://linkedin.com/in/juan-sebastian-plazas-gallo"
 						target="_blank"
 						rel="noopener noreferrer"
+						aria-label="Visit LinkedIn profile"
 						className="glass rounded-xl p-6 flex flex-col items-center justify-center hover:border-secondary transition-all"
 					>
 						<div className="w-8 mb-2">
@@ -51,6 +47,7 @@ export default function Contact() {
 						href="https://github.com/JuanPlazas"
 						target="_blank"
 						rel="noopener noreferrer"
+						aria-label="Visit GitHub profile"
 						className="glass rounded-xl p-6 flex flex-col items-center justify-center hover:border-accent transition-all"
 					>
 						<div className="w-8 mb-2">
