@@ -9,14 +9,16 @@ type Translations = typeof es;
 
 const translations: Record<Lang, Translations> = { es, en };
 
-export function useI18n() {
-	const [lang, setLang] = useState<Lang>('es');
+export function useI18n(initialLang: Lang = 'es') {
+	const [lang, setLang] = useState<Lang>(initialLang);
 
 	const phrases = translations[lang];
 
 	const toggleLanguage = useCallback(() => {
-		setLang((prev) => (prev === 'es' ? 'en' : 'es'));
-	}, []);
+		const next: Lang = lang === 'es' ? 'en' : 'es';
+		setLang(next);
+		document.cookie = `lang=${next};path=/;max-age=31536000;SameSite=Lax`;
+	}, [lang]);
 
 	return { phrases, lang, toggleLanguage };
 }

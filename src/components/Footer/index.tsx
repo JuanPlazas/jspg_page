@@ -1,9 +1,4 @@
-'use client';
-
-import { useI18nContext } from '@/app/providers';
-
-export default function Footer() {
-	const { phrases } = useI18nContext();
+export default function Footer({ phrases }: { phrases: { footer: { copyright: string; built_with: string } } }) {
 
 	return (
 		<footer className="border-t border-border py-8 px-4">

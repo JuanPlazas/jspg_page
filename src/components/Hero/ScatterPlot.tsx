@@ -13,8 +13,8 @@ export default function ScatterPlot() {
 	const maxY = Math.max(...pts.map((p) => p.cy));
 
 	return (
-		<div className="relative w-[20vw]">
-			<svg viewBox={`0 0 ${size_canvas_svg.width} ${size_canvas_svg.height}`} className="w-full h-full" preserveAspectRatio="xMidYMid meet">
+		<div className="relative w-[20vw]" aria-hidden="true">
+			<svg viewBox={`0 0 ${size_canvas_svg.width} ${size_canvas_svg.height}`} className="w-full h-full" preserveAspectRatio="xMidYMid meet" focusable="false">
 				<line x1="0" y1="50" x2="70" y2="50" stroke="var(--color-primary)" />
 				<line x1="0" y1="0" x2="0" y2="50" stroke="var(--color-primary)" />
 				{pts.map((point, i) => (

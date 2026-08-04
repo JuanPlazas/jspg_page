@@ -27,7 +27,14 @@ export function ProjectCard({ project, glow }: ProjectCardProps) {
 		setIsTouch('ontouchstart' in window || navigator.maxTouchPoints > 0);
 	}, []);
 
-	const flipProps = isTouch ? { onClick: () => setFlipped(!flipped) } : { onMouseEnter: () => setFlipped(true), onMouseLeave: () => setFlipped(false) };
+	const flipProps = isTouch
+		? { onClick: () => setFlipped(!flipped) }
+		: {
+				onMouseEnter: () => setFlipped(true),
+				onMouseLeave: () => setFlipped(false),
+				onFocus: () => setFlipped(true),
+				onBlur: () => setFlipped(false),
+			};
 
 	const flipIcon = (
 		<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

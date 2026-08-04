@@ -1,4 +1,4 @@
-import { glow_svg, size_canvas_svg } from './HeroSvgConstants';
+import { glowFilter, size_canvas_svg } from './HeroSvgConstants';
 
 export default function NeuralArchitecture() {
 	const input_layer = 3;
@@ -9,11 +9,11 @@ export default function NeuralArchitecture() {
 	const x_offset_output = 65;
 
 	return (
-		<div className="justify-around items-center relative w-[18vw]">
-			<svg viewBox={`0 0 ${size_canvas_svg.width} ${size_canvas_svg.height}`} className="w-full h-full" preserveAspectRatio="xMidYMid meet">
-				{glow_svg}
+		<div className="justify-around items-center relative w-[18vw]" aria-hidden="true">
+			<svg viewBox={`0 0 ${size_canvas_svg.width} ${size_canvas_svg.height}`} className="w-full h-full" preserveAspectRatio="xMidYMid meet" focusable="false">
+				{glowFilter('glow-neural')}
 				{Array.from({ length: input_layer }, (_, i) => (
-					<circle key={`i-${i}`} cx={x_offset_input} cy={i * (size_canvas_svg.height / input_layer) + size_canvas_svg.height / input_layer / 2} r="3" fill="var(--color-primary)" filter="url(#glow)" />
+					<circle key={`i-${i}`} cx={x_offset_input} cy={i * (size_canvas_svg.height / input_layer) + size_canvas_svg.height / input_layer / 2} r="3" fill="var(--color-primary)" filter="url(#glow-neural)" />
 				))}
 				{Array.from({ length: hidden_layer }, (_, i) => (
 					<circle
@@ -33,7 +33,7 @@ export default function NeuralArchitecture() {
 						cy={i * (size_canvas_svg.height / output_layer) + size_canvas_svg.height / output_layer / 2}
 						r="3"
 						fill="var(--color-tertiary)"
-						filter="url(#glow)"
+						filter="url(#glow-neural)"
 					/>
 				))}
 				{Array.from({ length: input_layer }, (_, i) =>
