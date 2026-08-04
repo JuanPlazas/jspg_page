@@ -1,4 +1,4 @@
-# Juan Sebastián Plazas Gaitán — Portafolio
+# Juan Sebastian Plazas Gallo — Portafolio
 
 Portafolio personal y página de marca personal. [Ver deploy](https://juanplazas.vercel.app)
 
@@ -78,12 +78,12 @@ Abre [http://localhost:3000](http://localhost:3000).
 
 ## Scripts
 
-| Comando         | Descripción                    |
-| --------------- | ------------------------------ |
-| `npm run dev`   | Servidor de desarrollo         |
-| `npm run build` | Build de producción            |
-| `npm run start` | Servir el build de producción  |
-| `npm run lint`  | ESLint                         |
+| Comando         | Descripción                   |
+| --------------- | ----------------------------- |
+| `npm run dev`   | Servidor de desarrollo        |
+| `npm run build` | Build de producción           |
+| `npm run start` | Servir el build de producción |
+| `npm run lint`  | ESLint                        |
 
 ## Configuración
 
