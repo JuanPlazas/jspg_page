@@ -12,13 +12,10 @@
 		"cta_cv": "Download CV",
 		"cta_contact": "Contact Me",
 		"vision": {
-			"title": "Computer Vision",
-			"subtitle": "Sign Language Recognition",
-			"description": "Real-time computer vision system to recognize sign language letters. The model detects hand gestures and translates them into text.",
-			"video_placeholder": "Video coming soon — Recording saying 'Hola' in sign language",
-			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
-			"repo_link": "View repository",
-			"status": "In development"
+			"video_placeholder": "Video: spelling the word HOLA in sign language",
+			"tech_stack": "Python · TensorFlow · Keras · OpenCV · MediaPipe · MLflow",
+			"view_project": "View project",
+			"status": "Completed"
 		}
 	},
 	"projects": {
@@ -27,6 +24,12 @@
 			"subtitle": "Vehicle Monitoring System Architecture",
 			"description": "Design of a scalable software architecture for a vehicle monitoring center (CCS) capable of processing 500 signals/second with emergency response under 2 seconds.",
 			"repo_link": "https://github.com/JuanPlazas/reto-arquitectura-backend"
+		},
+		"sign_language": {
+			"title": "Colombian Sign Language (LSC) Letter Detection",
+			"subtitle": "Real-time transcription",
+			"description": "Real-time transcription system for the Colombian Sign Language dactylologic alphabet. An LSTM model trained on hand-landmark sequences extracted with MediaPipe transcribes signs into text.",
+			"repo_link": "https://github.com/JuanPlazas/deteccion_letras_senas"
 		}
 	},
 	"about": {

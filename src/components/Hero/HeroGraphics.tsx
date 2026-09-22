@@ -7,7 +7,7 @@ import { glowFilter } from './HeroSvgConstants';
 
 export default function HeroGraphics() {
 	return (
-		<div className="flex items-center w-full h-full justify-center px-5 opacity-30 max-lg:hidden" aria-hidden="true">
+		<div className="absolute inset-0 flex items-center w-full h-full justify-center px-5 opacity-5 max-lg:hidden pointer-events-none" aria-hidden="true">
 			<ScatterPlot />
 			<div className="justify-center py-1 w-[5vw] relative">
 				<svg className="flex h-full w-full" viewBox="0 0 70 50" fill="none" preserveAspectRatio="xMidYMid meet">

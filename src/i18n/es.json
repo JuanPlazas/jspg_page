@@ -12,13 +12,10 @@
 		"cta_cv": "Descargar CV",
 		"cta_contact": "Contáctame",
 		"vision": {
-			"title": "Visión Computacional",
-			"subtitle": "Reconocimiento de Lengua de Señas",
-			"description": "Sistema de visión computacional en tiempo real para reconocer letras en lenguaje de señas. El modelo detecta e interpreta los gestos manuales y los traduce a texto.",
-			"video_placeholder": "Video próximamente — Grabación diciendo 'Hola' en lenguaje de señas",
-			"tech_stack": "Python · YOLO · OpenCV · MediaPipe",
-			"repo_link": "Ver repositorio",
-			"status": "En desarrollo"
+			"video_placeholder": "Video: deletreo de la palabra HOLA en lengua de señas",
+			"tech_stack": "Python · TensorFlow · Keras · OpenCV · MediaPipe · MLflow",
+			"view_project": "Ver proyecto",
+			"status": "Completado"
 		}
 	},
 	"projects": {
@@ -27,6 +24,12 @@
 			"subtitle": "Arquitectura para Sistema de Monitoreo Vehicular",
 			"description": "Diseño de una arquitectura para una central de monitoreo vehicular capaz de procesar 500 señales/segundo con respuesta a emergencias en menos de 2 segundos.",
 			"repo_link": "https://github.com/JuanPlazas/reto-arquitectura-backend"
+		},
+		"sign_language": {
+			"title": "Detección de Letras en Lengua de Señas Colombiana (LSC)",
+			"subtitle": "Transcripción en tiempo real",
+			"description": "Sistema de transcripción en tiempo real de Lengua de Señas Colombiana. Un modelo LSTM entrenado sobre landmarks extraídos con MediaPipe transcribe las señas a texto.",
+			"repo_link": "https://github.com/JuanPlazas/deteccion_letras_senas"
 		}
 	},
 	"about": {

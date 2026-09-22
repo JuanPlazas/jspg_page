@@ -1,6 +1,6 @@
 export default function HeroTerminal({ hero: { description, profile_ai, profile_more } }: { hero: { description: string; profile_ai: string; profile_more: string } }) {
 	return (
-		<div className="flex flex-col items-start justify-start glass rounded-2xl my-5 p-5 w-full glow-primary border-border">
+		<div className="flex flex-col items-start justify-start glass rounded-2xl my-5 p-5 w-full h-full glow-primary border-border">
 			<div className="flex items-center gap-2 mb-3">
 				<span className="w-3 h-3 rounded-full bg-red-500" />
 				<span className="w-3 h-3 rounded-full bg-yellow-500" />
